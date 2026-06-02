@@ -1,0 +1,7 @@
+I started by fitting a full OLS model with all five predictors (x1 through x5) to explore which variables contribute to predicting y. After examining the coefficient p-values, I noticed that x2, and x4 had large p-values (well above 0.05 for x4), suggesting they are not statistically significant predictors of the response.
+
+I performed backward elimination by dropping these two predictors and refitting the model with only x1, x3 and x5. The reduced model showed x1, x3 and x5 as highly significant (p < 0.001), with x3 having a large negative coefficient (~-1.2954), x1 had a coefficient of around 0.8702, and x5 had a coefficient of around 0.7347. The estimated noise level (sigma_hat = 0.9567) is close to what I'd expect for a well-specified model.
+
+I verified the standard OLS assumptions: the QQ plot of residuals looks approximately normal, the residuals-vs-fitted plot shows no obvious pattern or heteroscedasticity, and the predicted-vs-actual plot shows a strong linear relationship. The R-squared of the reduced model is fairly high, confirming that x1, x3 and x5 capture most of the variation in y.
+
+One limitation of my approach is that I used a simple p-value threshold for variable selection rather than a more rigorous method like cross-validated LASSO or AIC/BIC comparison. With only 5 predictors this is likely fine, but for higher-dimensional problems a penalized approach would be more appropriate.

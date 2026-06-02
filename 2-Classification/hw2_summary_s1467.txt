@@ -1,0 +1,8 @@
+Data Discovery and EDA
+The analysis began with an exploration of 300 training observations. Initial univariate analysis suggested that x2 was the primary driver of class separation, while x1 and x3 appeared to be non-informative noise. However, bivariate scatter plots revealed a distinct "checkerboard" or XOR-style pattern between x1 and x3. Feature expansion confirmed this finding, as the engineered interaction term x1 * x3 showed a significant correlation jump to approximately 0.42 with the target y, whereas the raw variables showed near-zero correlation.
+
+Model Selection and Methodology
+I compared Multiple Logistic Regression (with the x1x3 interaction) against Quadratic Discriminant Analysis (QDA). QDA was selected as a benchmark because it naturally models non-linear, quadratic boundaries without requiring manual feature engineering. Logistic Regression was ultimately preferred for the final submission due to its parsimony and the requirement to provide specific confidence intervals on the logit scale. To ensure mathematical integrity, the main effects x1 and x3 were retained in the model to satisfy the Principle of Marginality, even though their individual p-values were not significant.
+
+Performance and Results
+The model was evaluated using Accuracy, Log-Loss, and AUC-ROC. The final Logistic model achieved an accuracy of 75%, a Log-Loss of 0.50, and an AUC of 0.78. This Log-Loss represents a significant improvement over the random baseline of 0.69, proving the model is well-calibrated. The ROC curve comparison showed that our engineered Logistic model performed on par with the QDA method, confirming that the inclusion of the x1 * x3 term successfully captured the latent geometric structure of the data.

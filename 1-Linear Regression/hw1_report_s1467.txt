@@ -1,0 +1,178 @@
+======================================================================
+  GRADING REPORT
+  Assignment 1 — Regression — Linear Regression
+  Student: s1467
+  Generated: 2026-05-01 09:38
+======================================================================
+
+1. SUBMISSION
+----------------------------------------------------------------------
+   All required files submitted successfully:
+   - Results CSV: OK
+   - Code File: OK
+   - Slides (PDF): OK
+   - Slides Code (generates the PDF): OK
+   - Analysis Summary (free text, max 300 words): OK
+
+2. YOUR PERSONALIZED DATA GENERATION PROCESS
+----------------------------------------------------------------------
+   The true model used to generate your data is revealed below
+   so you can compare your submitted model to it and understand
+   how your score was calculated.
+
+   Training observations: 200
+   Test observations:     100
+   Predictors:            5
+   True model: y = beta0 + beta1*x1 + beta2*x2 + ... + noise
+   Intercept (beta0): 1.4720
+   beta_x1:            0.8631
+   beta_x2:            0.0000
+   beta_x3:            -1.3047
+   beta_x4:            0.0000
+   beta_x5:            0.5519
+   Noise std (sigma):    0.9475
+
+3. ASSIGNMENT ASSESSMENT
+----------------------------------------------------------------------
+
+3.1 PERFORMANCE OF YOUR INFERENCE/PREDICTIONS (weight 70%)
+    ----------------------------------------------------------
+
+   Scoring method: Negative Log-Likelihood (NLL)
+   For each test observation i:
+     NLL_i = 0.5 * log(2*pi*sigma_i^2) + (y_i - mu_i)^2 / (2*sigma_i^2)
+   where mu_i = your predicted_mean, sigma_i = your predicted_sd,
+   y_i = true test value.
+   Your loss = average NLL over all test observations.
+
+   Grade mapping:
+     grade = 100 * (NLL_null - NLL_yours) / (NLL_null - NLL_oracle)
+     clamped to [0, 100]
+   Ceiling: scores >= 95 are rounded up to 100, since a student
+   who recovers the true model will still lose 1-2 points due to
+   irreducible estimation error from finite sample size.
+   where:
+     NLL_oracle = the best possible NLL, achieved by a model that knows
+                  the true coefficients and the true noise level.
+     NLL_null   = the NLL of a naive model that simply predicts the
+                  training mean (y_bar) with sd = sd(y_train) for every
+                  test observation (i.e., ignores all predictors).
+   A score of 100 means you matched the oracle; 0 means you did no
+   better than ignoring the predictors entirely.
+
+   Your NLL:          1.3296
+   Oracle NLL:        1.365
+   Null model NLL:    2.2513
+   Your RMSE:         0.9126
+   Your mean pred_sd: 0.9567
+   True sigma:        0.9475
+
+   Performance score: 100 * (2.2513 - 1.3296) / (2.2513 - 1.365) = 100.0/100
+
+3.2 REVIEW OF YOUR PRESENTATION (weight 20%)
+    ----------------------------------------------------------
+
+   Slides code: hw1_slides_code_s1467.py
+
+   Your slides-generating code was parsed for the items below.
+   Detection is automated and deterministic (no LLM).
+
+   MANDATORY ITEMS (all-or-nothing = 60 pts):
+   All 7 must be present to earn 60 pts. If any is missing → 0 pts.
+
+     [YES] Three slides titled 'Data', 'Model, Method and Results', and 'Visualization'
+     [YES] Sample size of train and test sets stated
+     [YES] Summary statistics for predictors and response
+     [YES] Histograms of predictors and/or response
+     [YES] Model formula written with estimated quantities
+     [YES] Exact library/package used for the analysis stated
+     [YES] Model assumptions stated explicitly
+
+   Mandatory: ALL PRESENT → 60/60 pts
+
+   OPTIONAL ITEMS (10 pts each, max 4 counted = 40 pts):
+   The system detected 10 item(s) in your code (first 4 scored).
+
+     [                   YES  +10pts]  Correlation analysis (e.g. heatmap, bar chart of correlations)
+     [                   YES  +10pts]  Scatter plots (response vs predictors, or feature pairs)
+     [                   YES  +10pts]  Box plots (comparing groups or showing distributions)
+     [                   YES  +10pts]  ANOVA table with F-test
+     [YES  (not scored, max reached)]  Estimated coefficients with t-test and p-values
+     [YES  (not scored, max reached)]  Log-likelihood or NLL of predictions reported
+     [YES  (not scored, max reached)]  QQ plot of residuals
+     [YES  (not scored, max reached)]  Residual plot (residuals vs fitted values)
+     [YES  (not scored, max reached)]  Predicted vs actual plot
+                                   [—]  Confusion matrix
+                                   [—]  ROC curve or AUC reported
+                                   [—]  Decision boundary plot
+                                   [—]  Precision-recall curve or table
+     [YES  (not scored, max reached)]  Variable selection performed (e.g. backward elimination, stepwise, LASSO)
+                                   [—]  Variable importance or coefficient path plot
+                                   [—]  Cross-validation error curve (e.g. lambda vs CV error)
+                                   [—]  Regularization path (coefficients vs penalty)
+                                   [—]  Bootstrap distribution of the statistic
+                                   [—]  Confidence interval visualization
+                                   [—]  Decision tree visualization
+                                   [—]  Feature importance (bar chart or similar)
+                                   [—]  Cluster visualization (scatter colored by cluster)
+                                   [—]  Elbow plot, silhouette plot, or BIC for model selection
+                                   [—]  Dendrogram (hierarchical clustering)
+
+   Optional: 4 x 10 = 40/40 pts
+
+   Slides score: 60 + 40 = 100/100
+
+3.3 CODE REVIEW (weight 10%)
+    ----------------------------------------------------------
+
+   Your submitted code was executed using your training and
+   test data. The output was compared to your submitted results.
+
+   Code runs without errors:  NO
+   Output matches submission: NO
+
+   Code score: 0/100
+   Note: Code failed with exit code 1: /private/var/folders/ys/ymr9x5qd2p71g3rnx6072wx80000gn/T/code_check_s1467_e57vnus1/hw1_code_s1467.py:80: SyntaxWarning: invalid escape sequence '\S'
+  print(f"\nSaved {len(submission)} predictions to 
+
+3.4 AI FEEDBACK (on your analysis summary)
+    ----------------------------------------------------------
+
+   Note: This feedback was generated by an AI assistant (LLM).
+   It may contain inaccuracies. Use it as a learning aid, not
+   as a definitive assessment. Your grade is determined solely
+   by the deterministic scoring above.
+
+   Your variable selection was correct—you identified x1, x3, and x5
+   as active and appropriately dropped x2 and x4. Your coefficient
+   estimates (x3 ≈ -1.295, x1 ≈ 0.870, x5 ≈ 0.735) are very close to
+   the true values, and your estimated error standard deviation of
+   0.9567 closely matches the true 0.948. This precision shows
+   careful work. Your diagnostics discussion is solid, and your
+   observation about the limitations of p-value thresholding versus
+   LASSO demonstrates critical thinking about different selection
+   approaches.
+   Your code had a SyntaxWarning, but this didn't prevent execution.
+   Going forward, clean warnings out—they often signal small issues
+   that are worth fixing. To strengthen your presentation, consider
+   briefly interpreting what your estimates mean. For instance, x3
+   has a large negative coefficient; what does this tell you about
+   the relationship between that predictor and the response? How
+   certain are you in these estimates? Overall, your analysis is
+   fundamentally sound and your findings align well with the true
+   model. Strong statistical work.
+
+4. FINAL GRADE
+----------------------------------------------------------------------
+
+   Formula: Final = 0.70 * Performance + 0.20 * Slides + 0.10 * Code
+
+   Performance:  100.0/100  x 0.70 = 70.0
+   Slides:       100/100  x 0.20 = 20.0
+   Code:         0/100  x 0.10 = 0.0
+   ──────────────────────────────────────────
+   FINAL SCORE:  90.0/100
+
+======================================================================
+  END OF REPORT
+======================================================================
