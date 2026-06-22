@@ -1,0 +1,175 @@
+{
+  "student_id": "s1467",
+  "topic": "fashion versus astronomy",
+  "word_1": "",
+  "word_2": "",
+  "train_A": {
+    "data": [
+      {
+        "id": "A1",
+        "sentence": "",
+        "x1": null,
+        "x2": null,
+        "y": null
+      },
+      {
+        "id": "A2",
+        "sentence": "",
+        "x1": null,
+        "x2": null,
+        "y": null
+      },
+      {
+        "id": "A3",
+        "sentence": "",
+        "x1": null,
+        "x2": null,
+        "y": null
+      },
+      {
+        "id": "A4",
+        "sentence": "",
+        "x1": null,
+        "x2": null,
+        "y": null
+      }
+    ],
+    "classifier": {
+      "w1": "",
+      "w2": "",
+      "b": ""
+    }
+  },
+  "train_B": {
+    "data": [
+      {
+        "id": "B1",
+        "sentence": "",
+        "x1": null,
+        "x2": null,
+        "y": null
+      },
+      {
+        "id": "B2",
+        "sentence": "",
+        "x1": null,
+        "x2": null,
+        "y": null
+      },
+      {
+        "id": "B3",
+        "sentence": "",
+        "x1": null,
+        "x2": null,
+        "y": null
+      },
+      {
+        "id": "B4",
+        "sentence": "",
+        "x1": null,
+        "x2": null,
+        "y": null
+      }
+    ],
+    "classifier": {
+      "w1": "",
+      "w2": "",
+      "b": ""
+    }
+  },
+  "train_C": {
+    "data": [
+      {
+        "id": "C1",
+        "sentence": "",
+        "x1": null,
+        "x2": null,
+        "y": null
+      },
+      {
+        "id": "C2",
+        "sentence": "",
+        "x1": null,
+        "x2": null,
+        "y": null
+      },
+      {
+        "id": "C3",
+        "sentence": "",
+        "x1": null,
+        "x2": null,
+        "y": null
+      },
+      {
+        "id": "C4",
+        "sentence": "",
+        "x1": null,
+        "x2": null,
+        "y": null
+      }
+    ],
+    "classifier": {
+      "w1": "",
+      "w2": "",
+      "b": ""
+    }
+  },
+  "test": [
+    {
+      "id": "T1",
+      "sentence": "",
+      "x1": null,
+      "x2": null,
+      "y": null
+    },
+    {
+      "id": "T2",
+      "sentence": "",
+      "x1": null,
+      "x2": null,
+      "y": null
+    },
+    {
+      "id": "T3",
+      "sentence": "",
+      "x1": null,
+      "x2": null,
+      "y": null
+    },
+    {
+      "id": "T4",
+      "sentence": "",
+      "x1": null,
+      "x2": null,
+      "y": null
+    },
+    {
+      "id": "T5",
+      "sentence": "",
+      "x1": null,
+      "x2": null,
+      "y": null
+    },
+    {
+      "id": "T6",
+      "sentence": "",
+      "x1": null,
+      "x2": null,
+      "y": null
+    },
+    {
+      "id": "T7",
+      "sentence": "",
+      "x1": null,
+      "x2": null,
+      "y": null
+    },
+    {
+      "id": "T8",
+      "sentence": "",
+      "x1": null,
+      "x2": null,
+      "y": null
+    }
+  ]
+}

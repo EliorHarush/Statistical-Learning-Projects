@@ -1,0 +1,806 @@
+{
+    "student_id": "s1467",
+    "K_hat": 14,
+    "clusters": [
+        {
+            "document_id": "doc_0001",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0002",
+            "cluster": 14
+        },
+        {
+            "document_id": "doc_0003",
+            "cluster": 1
+        },
+        {
+            "document_id": "doc_0004",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0005",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0006",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0007",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0008",
+            "cluster": 5
+        },
+        {
+            "document_id": "doc_0009",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0010",
+            "cluster": 5
+        },
+        {
+            "document_id": "doc_0011",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0012",
+            "cluster": 14
+        },
+        {
+            "document_id": "doc_0013",
+            "cluster": 10
+        },
+        {
+            "document_id": "doc_0014",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0015",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0016",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0017",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0018",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0019",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0020",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0021",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0022",
+            "cluster": 14
+        },
+        {
+            "document_id": "doc_0023",
+            "cluster": 12
+        },
+        {
+            "document_id": "doc_0024",
+            "cluster": 14
+        },
+        {
+            "document_id": "doc_0025",
+            "cluster": 13
+        },
+        {
+            "document_id": "doc_0026",
+            "cluster": 12
+        },
+        {
+            "document_id": "doc_0027",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0028",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0029",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0030",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0031",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0032",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0033",
+            "cluster": 1
+        },
+        {
+            "document_id": "doc_0034",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0035",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0036",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0037",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0038",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0039",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0040",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0041",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0042",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0043",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0044",
+            "cluster": 14
+        },
+        {
+            "document_id": "doc_0045",
+            "cluster": 9
+        },
+        {
+            "document_id": "doc_0046",
+            "cluster": 1
+        },
+        {
+            "document_id": "doc_0047",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0048",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0049",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0050",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0051",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0052",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0053",
+            "cluster": 9
+        },
+        {
+            "document_id": "doc_0054",
+            "cluster": 4
+        },
+        {
+            "document_id": "doc_0055",
+            "cluster": 13
+        },
+        {
+            "document_id": "doc_0056",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0057",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0058",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0059",
+            "cluster": 5
+        },
+        {
+            "document_id": "doc_0060",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0061",
+            "cluster": 9
+        },
+        {
+            "document_id": "doc_0062",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0063",
+            "cluster": 9
+        },
+        {
+            "document_id": "doc_0064",
+            "cluster": 4
+        },
+        {
+            "document_id": "doc_0065",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0066",
+            "cluster": 1
+        },
+        {
+            "document_id": "doc_0067",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0068",
+            "cluster": 1
+        },
+        {
+            "document_id": "doc_0069",
+            "cluster": 1
+        },
+        {
+            "document_id": "doc_0070",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0071",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0072",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0073",
+            "cluster": 4
+        },
+        {
+            "document_id": "doc_0074",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0075",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0076",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0077",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0078",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0079",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0080",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0081",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0082",
+            "cluster": 4
+        },
+        {
+            "document_id": "doc_0083",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0084",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0085",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0086",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0087",
+            "cluster": 13
+        },
+        {
+            "document_id": "doc_0088",
+            "cluster": 9
+        },
+        {
+            "document_id": "doc_0089",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0090",
+            "cluster": 1
+        },
+        {
+            "document_id": "doc_0091",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0092",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0093",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0094",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0095",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0096",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0097",
+            "cluster": 12
+        },
+        {
+            "document_id": "doc_0098",
+            "cluster": 12
+        },
+        {
+            "document_id": "doc_0099",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0100",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0101",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0102",
+            "cluster": 14
+        },
+        {
+            "document_id": "doc_0103",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0104",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0105",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0106",
+            "cluster": 12
+        },
+        {
+            "document_id": "doc_0107",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0108",
+            "cluster": 9
+        },
+        {
+            "document_id": "doc_0109",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0110",
+            "cluster": 9
+        },
+        {
+            "document_id": "doc_0111",
+            "cluster": 9
+        },
+        {
+            "document_id": "doc_0112",
+            "cluster": 4
+        },
+        {
+            "document_id": "doc_0113",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0114",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0115",
+            "cluster": 4
+        },
+        {
+            "document_id": "doc_0116",
+            "cluster": 14
+        },
+        {
+            "document_id": "doc_0117",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0118",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0119",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0120",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0121",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0122",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0123",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0124",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0125",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0126",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0127",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0128",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0129",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0130",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0131",
+            "cluster": 14
+        },
+        {
+            "document_id": "doc_0132",
+            "cluster": 9
+        },
+        {
+            "document_id": "doc_0133",
+            "cluster": 5
+        },
+        {
+            "document_id": "doc_0134",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0135",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0136",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0137",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0138",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0139",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0140",
+            "cluster": 1
+        },
+        {
+            "document_id": "doc_0141",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0142",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0143",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0144",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0145",
+            "cluster": 4
+        },
+        {
+            "document_id": "doc_0146",
+            "cluster": 9
+        },
+        {
+            "document_id": "doc_0147",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0148",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0149",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0150",
+            "cluster": 4
+        },
+        {
+            "document_id": "doc_0151",
+            "cluster": 5
+        },
+        {
+            "document_id": "doc_0152",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0153",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0154",
+            "cluster": 1
+        },
+        {
+            "document_id": "doc_0155",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0156",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0157",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0158",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0159",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0160",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0161",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0162",
+            "cluster": 9
+        },
+        {
+            "document_id": "doc_0163",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0164",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0165",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0166",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0167",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0168",
+            "cluster": 10
+        },
+        {
+            "document_id": "doc_0169",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0170",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0171",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0172",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0173",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0174",
+            "cluster": 10
+        },
+        {
+            "document_id": "doc_0175",
+            "cluster": 5
+        },
+        {
+            "document_id": "doc_0176",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0177",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0178",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0179",
+            "cluster": 4
+        },
+        {
+            "document_id": "doc_0180",
+            "cluster": 3
+        },
+        {
+            "document_id": "doc_0181",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0182",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0183",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0184",
+            "cluster": 5
+        },
+        {
+            "document_id": "doc_0185",
+            "cluster": 2
+        },
+        {
+            "document_id": "doc_0186",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0187",
+            "cluster": 9
+        },
+        {
+            "document_id": "doc_0188",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0189",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0190",
+            "cluster": 13
+        },
+        {
+            "document_id": "doc_0191",
+            "cluster": 6
+        },
+        {
+            "document_id": "doc_0192",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0193",
+            "cluster": 14
+        },
+        {
+            "document_id": "doc_0194",
+            "cluster": 11
+        },
+        {
+            "document_id": "doc_0195",
+            "cluster": 4
+        },
+        {
+            "document_id": "doc_0196",
+            "cluster": 10
+        },
+        {
+            "document_id": "doc_0197",
+            "cluster": 7
+        },
+        {
+            "document_id": "doc_0198",
+            "cluster": 9
+        },
+        {
+            "document_id": "doc_0199",
+            "cluster": 8
+        },
+        {
+            "document_id": "doc_0200",
+            "cluster": 7
+        }
+    ]
+}

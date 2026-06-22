@@ -1,0 +1,65 @@
+import json
+
+assignment_data = {
+  "student_id": "s1467",
+  "topic": "fashion versus astronomy",
+  "word_1": "fabric",
+  "word_2": "trend",
+  "train_A": {
+    "data": [
+      {"id": "A1", "sentence": "This fabric is a nice fabric.", "x1": 2, "x2": 0, "y": 1},
+      {"id": "A2", "sentence": "The fabric of this fabric is a trend, a good trend.", "x1": 2, "x2": 2, "y": 1},
+      {"id": "A3", "sentence": "We looked at the stars.", "x1": 0, "x2": 0, "y": -1},
+      {"id": "A4", "sentence": "One trend in astronomy is an interesting trend.", "x1": 0, "x2": 2, "y": -1}
+    ],
+    "classifier": {
+      "w1": 1.0,
+      "w2": 0.0,
+      "b": -1.0
+    }
+  },
+  "train_B": {
+    "data": [
+      {"id": "B1", "sentence": "This winter trend is a nice trend.", "x1": 0, "x2": 2, "y": 1},
+      {"id": "B2", "sentence": "This fabric and that fabric started a trend, a huge trend.", "x1": 2, "x2": 2, "y": 1},
+      {"id": "B3", "sentence": "The moon is bright.", "x1": 0, "x2": 0, "y": -1},
+      {"id": "B4", "sentence": "Spacetime is like a fabric, a cosmic fabric.", "x1": 2, "x2": 0, "y": -1}
+    ],
+    "classifier": {
+      "w1": 0.0,
+      "w2": 1.0,
+      "b": -1.0
+    }
+  },
+  "train_C": {
+    "data": [
+      {"id": "C1", "sentence": "This fabric and that fabric set a trend.", "x1": 2, "x2": 1, "y": 1},
+      {"id": "C2", "sentence": "This fabric started a trend, another trend, and a third trend.", "x1": 1, "x2": 3, "y": 1},
+      {"id": "C3", "sentence": "The cosmic fabric shows an expansion trend.", "x1": 1, "x2": 1, "y": -1},
+      {"id": "C4", "sentence": "A trend, a second trend, and a third trend in space.", "x1": 0, "x2": 3, "y": -1}
+    ],
+    "classifier": {
+      "w1": 2.0,
+      "w2": 1.0,
+      "b": -4.0
+    }
+  },
+  "test": [
+    {"id": "T1", "sentence": "I like this fabric, that fabric, and this trend.", "x1": 2, "x2": 1, "y": 1},
+    {"id": "T2", "sentence": "Buy this fabric, that fabric, and the other fabric.", "x1": 3, "x2": 0, "y": 1},
+    {"id": "T3", "sentence": "Sew the fabric to the other fabric.", "x1": 2, "x2": 0, "y": 1},
+    {"id": "T4", "sentence": "This fabric and that fabric match the trend, yes a trend.", "x1": 2, "x2": 2, "y": 1},
+    {"id": "T5", "sentence": "We saw a trend, another trend, a third trend, a fourth trend, and a fifth trend in stars.", "x1": 0, "x2": 5, "y": -1},
+    {"id": "T6", "sentence": "Look at the moon.", "x1": 0, "x2": 0, "y": -1},
+    {"id": "T7", "sentence": "There is a new trend in exoplanets.", "x1": 0, "x2": 1, "y": -1},
+    {"id": "T8", "sentence": "The orbit is elliptical.", "x1": 0, "x2": 0, "y": -1}
+  ]
+}
+
+# 2. Save the dictionary to the required output file
+output_filename = 'hw7_results_s1467.json'
+
+with open(output_filename, 'w', encoding='utf-8') as f:
+    json.dump(assignment_data, f, indent=2)
+    
+print(f"Success! {output_filename} has been generated and is ready to upload.")
